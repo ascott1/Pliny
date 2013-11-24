@@ -1,3 +1,13 @@
+/* ==========================================================================
+   main.scss
+   --------------------------------------------------------------------------
+   * Use this file to import your .scss files.
+   * All imported files will be compiled into main.css file when running grunt
+   * Pliny institutes a *very* basic .scss directory structure roughly based on
+     the one featured here http://thesassway.com/beginner/how-to-structure-a-sass-project
+     but can be easily be motified
+   ========================================================================== */
+
 // Normalize
 @import "vendor/normalize";
 
