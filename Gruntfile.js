@@ -29,7 +29,7 @@ module.exports = function(grunt) {
       },
       dist: {
         src: ['assets/js/main.js'], // be sure to add all of you JS src files here
-        dest: 'assets/js/<%= pkg.name %>.js'
+        dest: 'assets/js/concat.js'
       }
     },
     uglify: {
@@ -60,6 +60,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
 
   // Default task.
-  grunt.registerTask('default', ['sass', 'jshint', 'concat', 'uglify']);
+  grunt.registerTask('default', ['sass', 'concat', 'uglify']);
 
 };
