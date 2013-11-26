@@ -1,5 +1,7 @@
 Pliny the Younger wrote what many consider the first ghost story. Similarly, Pliny aims to be the origin of many themes for the Ghost blogging platform. Using Sass and Grunt, Pliny brings modern front-end tools to an ancient story.
 
+![Pliny the Younger](https://raw.github.com/ascott1/Pliny/master/assets/img/pliny.jpg)
+
 ## Dependencies
 
 Pliny relies on:
